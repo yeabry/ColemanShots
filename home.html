@@ -4,51 +4,70 @@
   <title>Outer Banks Wedding Photography | ColemanShots LLC</title>
   <meta name="keywords" content="wedding photos, wedding pictures, best photographers, outer banks, nc, north carolina">
   <meta name="description" content="ColemanShots Wedding photography is dedicated to top quality photography. Our team brings a fun, relaxed, photo journalistic approach to weddings.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <!-- <link rel="stylesheet" type="text/css" href="Stylesheets/bootstrap.min.css.map"> -->
-  <link rel="stylesheet" type="text/css" href="Stylesheets/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="Stylesheets/home.css">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/home.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="Javascript/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>$( document ).ready(function(){
+    $(".button-collapse").sideNav();
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
+  })</script>
 </head>
+
 <body>
-<div class="mynav">
-  <div class="logo">
-    <p>Logo</p>
+<nav>
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo"><img src="Images/Coleman-Shots-Logo.png"></a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="about.html">About</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://www.facebook.com/colemanshotsLLC/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      <li><a href="https://twitter.com/colemanshots"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.instagram.com/colemanshots/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="about.html">About</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
   </div>
-  <ul>
-    <li><a href="home.html">Home</a></li>
-    <li><a href="gallery.html">Gallery</a></li>
-    <li><a href="pricing.html">Pricing</a></li>
-    <li><a href="about.html">About Us</a></li>
-    <li><a href="#">Our Stories</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+</nav>
+
+
+<div class="carousel carousel-slider center" data-indicators="true">
+  <div class="carousel-item red white-text" href="#one!">
+    <h2>First Panel</h2>
+    <p class="white-text">This is your first panel</p>
+  </div>
+  <div class="carousel-item amber white-text" href="#two!">
+    <h2>Second Panel</h2>
+    <p class="white-text">This is your second panel</p>
+  </div>
+  <div class="carousel-item green white-text" href="#three!">
+    <h2>Third Panel</h2>
+    <p class="white-text">This is your third panel</p>
+  </div>
 </div>
 
 
-<div class="col-lg-12">
-  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-generic" data-interval="2000" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-generic" data-interval="2000" data-slide-to="1"></li>
-    </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="http://colemanshotsblog.com/clove-blog-resample.php?q=gallery:a2-995c.jpg:900:450:0:jpg" alt="...">
-        <div class="carousel-caption">
-          Taylor + John | Wedding, Duck NC
-        </div>
-      </div>
-      <!-- <div class="item">
-        <img src="https://scontent-atl3-1.xx.fbcdn.net/t31.0-8/14589710_10154677966855970_410831994169171773_o.jpg" alt="...">
-      </div> -->
-    </div>
-  </div>
-</div>
+
+
+
+
 </body>
 </html>
+
+
+

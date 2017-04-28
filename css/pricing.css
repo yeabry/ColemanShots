@@ -1,0 +1,51 @@
+nav {
+  height: 100px;
+  background-color: #fff;
+}
+
+.nav-wrapper ul li a, .button-collapse{color: #808284;}
+
+.hide-on-med-and-down li a, .side-nav li a {font-size: 1.8em;}
+
+.hide-on-med-and-down li a {padding-top: 15px;}
+
+nav .nav-wrapper, nav ul, .hide-on-med-and-down li, .hide-on-med-and-down li a {height: 100%;}
+
+.fa-facebook, .fa-twitter, .fa-instagram {color: #29b6f6;}
+
+.row .col.s12 {height: 300px;}
+
+.pricing-image {
+  background-image: url(../Images/Outer-Banks-Wedding-Ring.jpg);
+  background-position: 50% 55%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row .m4 {
+  margin: 11px;
+}
+
+.row .col.m4 {
+  height: 400px;
+}
+
+
+.row .m4 h2 {
+  border-bottom: 4px solid #808284;
+}
+
+.row .m4 h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.col .btn {
+  width: 100%;
+  background-color: #29b6f6;
+}
+
+.col .btn:hover {
+  background-color: #29b6f6;
+}
+
